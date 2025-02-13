@@ -20,10 +20,10 @@ Hint: You may use the following `Dataset` code as a starter and fill out the mis
 
 ```python
 class MyDataset(Dataset):
-    def __init__(self, ..., transform=None):
+    def __init__(self, data_dir, transform=None):
 
         self.transform = transform
-        # ...
+        self.images, self.labeks = 
 
     def __getitem__(self, index):
         # ...
